@@ -1,0 +1,17 @@
+baseURL = "/"
+title = "example site"
+theme = "plan9"
+enableEmoji = false
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 5
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts"
+    weight = 10
