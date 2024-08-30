@@ -1,0 +1,9 @@
+Start:
+name: Compilation
+on: [push]
+jobs:
+     Generating Files:
+     runs-on: ubuntu-latest
+     steps: 
+     - run: sudo apt install hugo
+     - run: echo 'Hugo has been installed!'
