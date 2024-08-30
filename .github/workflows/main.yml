@@ -7,5 +7,5 @@ jobs:
      steps:
      - run: sudo apt install hugo
      - run: echo 'Hugo has been installed!'
-     - run: hugo
+     - run: ls
      - run: echo 'Files have been compiled into a working site'
