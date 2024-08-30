@@ -1,0 +1,5 @@
+---
+title: "Home"
+---
+
+![](cirno.gif)
