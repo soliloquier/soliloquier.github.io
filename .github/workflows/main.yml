@@ -1,6 +1,11 @@
 name: GitHub Actions Demo
 run-name: Starting off with a bit of compilation!
 on: [push]
+
+defaults:
+  run:
+    shell: bash
+    
 jobs:
   Explore-GitHub-Actions:
      runs-on: ubuntu-latest
