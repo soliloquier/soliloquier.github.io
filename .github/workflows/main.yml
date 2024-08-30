@@ -1,5 +1,5 @@
 name: GitHub Actions Demo
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+run-name: Starting off with a bit of compilation!
 on: [push]
 jobs:
   Explore-GitHub-Actions:
@@ -7,3 +7,5 @@ jobs:
      steps: 
      - run: sudo apt install hugo
      - run: echo 'Hugo has been installed!'
+     - run: hugo
+     - run: echo 'Files have been compiled into a working site!'
