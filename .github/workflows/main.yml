@@ -5,6 +5,7 @@ jobs:
   Explore-GitHub-Actions:
      runs-on: ubuntu-latest
      steps:
+     - run: bash
      - run: sudo apt install hugo
      - run: echo 'Hugo has been installed!'
      - run: ls
