@@ -1,8 +1,7 @@
-Start:
-name: Compilation
+name: Hugo Deployment
 on: [push]
 jobs:
-     Generating Files:
+     Generating-Files:
      runs-on: ubuntu-latest
      steps: 
      - run: sudo apt install hugo
