@@ -10,6 +10,7 @@ jobs:
     permissions:
       id-token: write
       pages: write
+      contents: read
       
     steps: 
       - uses: actions/checkout@v2
@@ -19,8 +20,8 @@ jobs:
       - run: ls
       - run: hugo  
       - run: echo 'Files have been compiled into a working site'
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-pages-artifact@v3
         with:
           name: github-pages
-          path: public/
+          path: ./public
       - uses: actions/deploy-pages@v4
