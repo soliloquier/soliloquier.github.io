@@ -15,3 +15,4 @@ jobs:
       - run: ls
       - run: hugo  
       - run: echo 'Files have been compiled into a working site'
+      - uses: actions/deploy-pages@v4
