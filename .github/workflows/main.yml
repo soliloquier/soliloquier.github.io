@@ -3,11 +3,13 @@ on: push
 defaults:
   run:
     shell: bash
-    
+
 jobs:
   rando-title:
-     runs-on: ubuntu-latest
-     steps:
+runs-on: ubuntu-latest
+  steps: 
+    repo:
+      - uses: actions/checkout@v2
       - run: bash
       - run: sudo apt install hugo
       - run: echo 'Hugo has been installed!'
