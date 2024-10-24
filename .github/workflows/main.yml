@@ -5,11 +5,10 @@ defaults:
     shell: bash
     
 jobs:
-  Explore-GitHub-Actions:
      runs-on: ubuntu-latest
      steps:
-      run: bash
-      run: sudo apt install hugo
-      run: echo 'Hugo has been installed!'
-      run: ls
-      run: echo 'Files have been compiled into a working site'
+      - run: bash
+      - run: sudo apt install hugo
+      - run: echo 'Hugo has been installed!'
+      - run: ls
+      - run: echo 'Files have been compiled into a working site'
