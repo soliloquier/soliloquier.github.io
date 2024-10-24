@@ -6,9 +6,8 @@ defaults:
 
 jobs:
   rando-title:
-runs-on: ubuntu-latest
-  steps: 
-    repo:
+    runs-on: ubuntu-latest
+    steps: 
       - uses: actions/checkout@v2
       - run: bash
       - run: sudo apt install hugo
