@@ -1,4 +1,4 @@
-baseURL = "https://soliloquier.github.io/site/"
+baseURL = "https://soliloquier.github.io/"
 title = "A Teahouse"
 theme = "plan9"
 enableEmoji = false
