@@ -1,4 +1,4 @@
-baseURL = "~/work/site/site"
+baseURL = "/home/runner/work/site/site"
 title = "example site"
 theme = "plan9"
 enableEmoji = false
