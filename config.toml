@@ -1,4 +1,4 @@
-baseURL = "./public/"
+baseURL = "./"
 title = "example site"
 theme = "plan9"
 enableEmoji = false
