@@ -15,3 +15,9 @@ enableEmoji = false
     name = "Posts"
     url = "/posts"
     weight = 10
+
+  [[menu.main]]
+    identifer = "library"
+    name = "Library"
+    url = "/books"
+    weight = 15
