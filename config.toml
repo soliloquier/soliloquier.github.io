@@ -21,3 +21,9 @@ enableEmoji = false
     name = "Library"
     url = "/books"
     weight = 15
+
+  [[menu.main]]
+    identifier = "accounts"
+    name = "Other Sites"
+    url = "/sites"
+    weight = 20
